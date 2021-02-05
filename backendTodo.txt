@@ -1,0 +1,9 @@
+- Context error fix - redux acting weird (done)
+- photoURL fix (done)
+- persistor file creation (done)
+- UserModel pfp (done)
+-
+- Rings fix - weird exceptions (done)
+- Change password - email -> phone number -> verify phone number .-> login user using email and new password -> change password
+- Video testing (Admin)
+- Course Edit page (Left)

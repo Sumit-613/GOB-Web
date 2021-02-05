@@ -1,0 +1,179 @@
+name: gob_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  pin_input_text_field: ^3.0.7
+  flutter_otp_text_field:
+  otp_text_field: ^1.0.1
+  pinput:
+  firebase_core: ^0.5.0
+  firebase_auth: ^0.18.0+1
+  cloud_firestore: ^0.14.0+2
+  google_sign_in: ^4.5.3
+  modal_progress_hud: ^0.1.3
+  flutter_facebook_auth: "^0.2.3"
+  firebase_storage: ^4.0.0
+  firebase_admin: ^0.1.3
+  flutter_redux: "^0.5.0"
+  redux: "^3.0.0"
+  redux_persist: ^0.8.4
+  path_provider: ^1.6.14
+  image_picker: ^0.6.7+7
+  audioplayers:
+  intl:
+  flutter_html:
+  duration:
+  video_player:
+  google_fonts: ^1.1.0
+  youtube_player_flutter: ^6.1.0+4
+  smooth_star_rating: 1.1.1
+  carousel_slider: ^1.3.0
+  circular_check_box: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - facebook.png
+    - gob-belt-product-chart.png
+    - gob-joint-1000-px.png
+    - gob-pad-belt-1000-px.png
+    - Group 165.png
+    - 1611503216018.JPEG
+    - 1611503265900.JPEG
+    - 1611503292952.JPEG
+    - Group 238.png
+    - Group 238@2x.png
+    - Group 279@2x.png
+    - Empty.png
+    - social-color-1-logo-paypal.png
+    - Group 405.png
+    - Group 406.png
+    - Group 287@2x.png
+    - Group 282.png
+    - Group 283.png
+    - group-28.png
+    - group-32.png
+    - group-148.png
+    - group-152.png
+    - group-153.png
+    - group-242.png
+    - group-284.png
+    - group-287.png
+    - Image 5.png
+    - Image 24@2x.png
+    - Image 35.png
+    - image-6.png
+    - image-24.png
+    - path-39.png
+    - Mask Group 12.png
+    - Mask Group 13.png
+    - mask-group-11.png
+    - mask-group-14.png
+    - Path 31.png
+    - Group 286@2x.png
+    - Group 287.png
+    - images.png
+    - pubg_official_.mp3
+    - Symbol 216 – 28.png
+    - Group 319@2x.png
+    - Group 319.png
+    - Group 407@2x.png
+    - blank-profile-picture.png
+    - gob-pre-workout-b-1000-px-removebg-preview.png
+    - Image 35-1.png
+    - abs-category.jpg
+    - back-category.jpg
+    - bicept-category.jpg
+    - chest-category.jpg
+    - quad-category.jpg
+    - shoulders-category.jpg
+    - triceps-category.jpg
+    - IMG_4864.jpg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: OpenSans SemiBold
+      fonts:
+        - asset: fonts/OpenSans-SemiBold.ttf
+    - family: OpenSans Bold
+      fonts:
+        - asset: fonts/OpenSans-Bold.ttf
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+    - family: Poppins Regular
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+    - family: Poppins Light
+      fonts:
+        - asset: fonts/Poppins-Light.ttf
+    - family: Poppins ExtraLight
+      fonts:
+        - asset: fonts/Poppins-ExtraLight.ttf
+    - family: bell-mt-grassetto
+      fonts:
+        - asset: fonts/bell-mt-grassetto.ttf
+    - family: Montserrat-Bold.ttf
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
